@@ -1,0 +1,16 @@
+body {
+    background-color: darkslategrey;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    border: 2px black dashed;
+    }
+
+.container{
+
+    margin: 0 auto;
+    text-align: center;
+
+}
