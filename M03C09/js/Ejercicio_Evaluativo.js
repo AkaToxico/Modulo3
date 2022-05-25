@@ -60,10 +60,9 @@ function generateRandomColors(numberOfSquares){
 }
 
 //Eventos-----------------------------------------------------------------------------------------------------
- 
-reset.addEventListener("click", function(){                 // Nuevos colores
- // colors = generateRandomColors(numberOfSquares);
 
+reset.addEventListener("click", function(){                   // Nuevos colores
+  titulo.style.color="white";
   if (facil.classList.contains("selected")){
     numberOfSquares = 3;
     colors = generateRandomColors(numberOfSquares);
